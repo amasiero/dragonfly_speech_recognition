@@ -3,7 +3,7 @@
 <launch>
 
     <node name="speech_client" pkg="dragonfly_speech_recognition" type="client.py" output="screen">
-        <param name="ip" value="192.168.2.99" />
+        <param name="ip" value="127.0.0.1" />
     </node>
 
 </launch>
